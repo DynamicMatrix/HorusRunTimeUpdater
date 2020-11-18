@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:id="@id/linear3" android:background="#ff111111" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical" android:id="@id/linear2" android:background="#ff212121" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<ImageView android:id="@id/imageview1" android:layout_width="90.0dip" android:layout_height="30.0dip" android:src="@drawable/hdjjd" android:scaleType="centerCrop" />
+			<TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/textview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Beta 1.4" android:translationY="-5.0dip" />
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal" android:id="@id/linear5" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<LinearLayout android:orientation="horizontal" android:id="@id/linear6" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<LinearLayout android:orientation="horizontal" android:id="@id/linear7" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<LinearLayout android:orientation="horizontal" android:id="@id/linear8" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linear12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear11" android:background="#ff212121" android:padding="8.0dip" android:layout_width="150.0dip" android:layout_height="150.0dip">
+				<ImageView android:id="@id/imageview2" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/bug_2" android:scaleType="fitCenter" />
+				<TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/textview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Заражённые устройства" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/linear14" android:padding="8.0dip" android:layout_width="15.0dip" android:layout_height="fill_parent" />
+			<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linear15" android:background="#ff212121" android:padding="8.0dip" android:layout_width="150.0dip" android:layout_height="150.0dip">
+				<ImageView android:id="@id/imageview3" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/bug_1" android:scaleType="fitCenter" />
+				<TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/textview2" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Заразить приложение" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
